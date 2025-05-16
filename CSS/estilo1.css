@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+header{
+    background-color: #182b66;
+    width: 100%;
+    height: 50px;
+}
+
+nav{
+    /* background-color: cadetblue;  */
+    width: 650px;
+    height: 50px;
+    margin: 0 0 0 670px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/*Text-Decoration serv pra tirar as linhas de baixo do texto*/
+a{
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+}
+
+section#banner{
+    
+    background-color: #89c2ff;
+    margin: 0;
+    height: 890px;
+    
+}
+
+#ajtimg{
+    /* background-color: black;  */
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#minhaimg{
+    width: 500px;
+    /* padding: 0 0 0 50px; */
+    
+}
+
+#ajNome{
+    /* background-color: aqua; */
+    float:right;
+    width: 600px;
+    height: 50px;
+    margin: 120px 20px 0 0;
+}
+
+#meuNome{
+    font-size: 80px;
+    font-family: cursive;
+    color: #182b66;
+}
+
+section#sobre{
+    background-color: #004e98;
+    width:100%;
+    height: 890px;
+}
+
+#ajtSobreTxt{
+    /* background-color: aqua; */
+    width: 1000px;
+    height: 890px;    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ContSobre{
+    height: 1000px;
+}
+
+section#experiencias{
+    background-color: #023047;
+    width: 100%;
+    height: 890px;
+}
+
+#ajtExperienicas{
+    /* background-color: aqua; */
+    width: 1000px;
+    height: 890px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ExperienciasCont{
+    height: 1000px;
+}
+
+section#CURSOS{
+    background-color: #3a6ea5;
+    width: 100%;
+    height: 890px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#CursoTec{
+    /* background-color: brown; */
+    width: 800px;
+    /* margin: 0 0 0 100px; */
+   
+
+}
+
+#CursoIos{
+     background-color: blueviolet; 
+    width: 400px;
+
+}
+
+#imgTec{
+    width: 800px;
+    padding: 0 0 0 100px; 
+}
+
+#imgIos{
+    width: 800px;
+    padding: 0 100px 0 0;
+}
+
+#ajtContato{
+    /* background-color: darkgray; */
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+h1#contato{
+    /* background-color: aqua; */
+    margin-top: 30px;
+    padding: 0 0 0 190px;
+}
+
+#infoContato{
+    /* background-color: aquamarine; */
+    width: 500px;
+    height: 250px;
+    margin-top: 60px;
+}
+
+#info{
+    text-align: center;
+    font-size: 25px;
+}
+
+a:link{
+    text-decoration: none;
+    color:orangered;
+}
+
+a:visited{
+    color: #2ae ;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: black;
+}
